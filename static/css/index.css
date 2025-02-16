@@ -1,6 +1,7 @@
 @import "commons.css";
 @import "header.css";
 @import "main.css";
+@import "category.css";
 
 body{
     margin: 0;

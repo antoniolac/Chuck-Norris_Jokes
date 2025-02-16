@@ -75,7 +75,7 @@ btn.addEventListener("click", function (e) {
         }
     ).then(
         function (data) {
-            document.querySelector("#jokes").innerHTML = data.value;
+            document.querySelector("#jokes").innerHTML = "\' " + data.value + "\'";
         }
     ).catch(
         function (err) {

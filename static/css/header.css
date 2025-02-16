@@ -4,13 +4,10 @@
     box-shadow: 0px 2px 10px;
 }
 #header figure>img{
-    width: 100px;
-    height: auto;
     padding: 40px 10px 20px 10px;
 }
 
 #header h1{
-    font-size: 20px;
     line-height: auto;
     text-align: left;
     letter-spacing: 0.5%;
