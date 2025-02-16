@@ -1,0 +1,9 @@
+@import "commons.css";
+@import "header.css";
+@import "main.css";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+

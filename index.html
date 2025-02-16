@@ -8,18 +8,46 @@
     <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-    <header class="flex">
-        <figure>
-            <img src="static/images/17794049-removebg-preview.png">
-        </figure>
-        <h1>Chuck Norris Jokes</h1>
-    </header>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
+    <div class="flex flex-col h-screen">
+        <header id="header" class="flex justify-center items-center">
+            <figure>
+                <img src="static/images/17794049-removebg-preview.png">
+            </figure>
+            <h1 class="oi-regular">Chuck Norris Jokes</h1>
+        </header>
+        <main id="main" class="flex flex-col justify-center items-center grow">
+            <form action="" method="get">
+                <label for="">Click the button to generete a random Chuck Norris Jokes</label>
+                <input type="button" name="btn" class="odor-mean-chey-regular" id="generate" value="Loads Jokes">
+            </form>
+            <h5 id="jokes" class="odor-mean-chey-regular"></h5>
+            <section>
+                <label for="scelta">choose jokes catergoty:</label>
+                <select id="scelta">
+                    <option value= 0 >All</option>
+                    <option value= 1>Animal</option>
+                    <option value= 2>Career</option>
+                    <option value= 3>Celebrity</option>
+                    <option value= 4>Dev</option>
+                    <option value= 5>Explicit</option>
+                    <option value= 6>Fashion</option>
+                    <option value= 7>Food</option>
+                    <option value= 8>History</option>
+                    <option value= 9>Money</option>
+                    <option value= 10>Movie</option>
+                    <option value= 11>Music</option>
+                    <option value= 12>Political</option>
+                    <option value= 13>Religion</option>
+                    <option value= 14>Science</option>
+                    <option value= 15>Sport</option>
+                    <option value= 16>Travel</option>
+                </select>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
     <script src="static/js/index.js"></script>
 </body>
 </html>
