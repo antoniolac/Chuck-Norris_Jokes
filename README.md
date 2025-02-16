@@ -1,6 +1,6 @@
-# Chuck Norris Jokes App
+# Chuck Norris Jokes
 
-This is a simple web application that fetches random Chuck Norris jokes using the [Chuck Norris API](https://api.chucknorris.io/). Users can generate new jokes by clicking a button and filter jokes by category using a dropdown menu.
+This is a simple web-site that fetches random Chuck Norris jokes using the [Chuck Norris API](https://api.chucknorris.io/). Users can generate new jokes by clicking a button and filter jokes by category using a dropdown menu.
 
 ## Features
 
